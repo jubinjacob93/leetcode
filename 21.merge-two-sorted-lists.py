@@ -24,7 +24,7 @@ class Solution:
                 cur=cur.next
                 list2=list2.next
 
-       cur.next=list1 or list2
+        cur.next=list1 or list2
 
         return dummy.next
         
